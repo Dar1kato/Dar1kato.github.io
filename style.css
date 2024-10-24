@@ -1,0 +1,121 @@
+html {
+    overflow: hidden;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+.hero {
+    padding-left: 5vh;
+}
+
+.welcome {
+    font-size: 22vh;
+}
+
+.subWelcome {
+    font-size: 6vh;
+    padding-bottom: 55vh;
+}
+
+.subWelcome b {
+    font-size: 14vh;
+}
+
+.heroBreak {
+    padding-bottom: 100px;
+}
+
+
+.sobreMi {
+    padding-left: 5vh;
+}
+
+#tareas {
+    padding-left: 5vh;
+}
+
+
+hr {
+    border: solid 2px #ADB5BD;
+}
+body {
+   background-color: #343A40;
+   color: white;
+   overflow: auto;
+   height: 100%;
+   -webkit-box-shadow: inset 0px 0px 28px -7px rgba(255,255,255,1);
+-moz-box-shadow: inset 0px 0px 28px -7px rgba(255,255,255,1);
+box-shadow: inset 0px 0px 28px -7px rgba(255,255,255,1);
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+article {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+#tarea1Carousel, #tarea4, #ahorcadoCodigo, #tarea6Carousel  {
+    -webkit-box-shadow: 0px 0px 28px -7px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 28px -7px rgba(255,255,255,1);
+box-shadow: 0px 0px 28px -7px rgba(255,255,255,1);
+}
+
+article h3 {
+    padding-bottom: 20px;
+}
+
+article .btn {
+    margin-bottom: 40px;
+    background-color: #212529;
+    border-color: white;
+    z-index: 9;
+}
+
+@keyframes blink {
+    50% {
+      opacity: 0.0;
+    }
+}
+
+.blink {
+    animation: blink 1s step-start 0s infinite;
+}
+
+
+footer {
+    padding: 20px;
+    background-color: #212529;
+    position: sticky;
+}
+
+.contactame h3 {
+    padding-left: 5vh;
+}
+.contactos {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+}
+
+.contactos h3 {
+    padding-right: 5vh;
+}
+
+.contactos img {
+    width: 200px;
+    height: 200px;
+}
+  
+.imagenContacto {
+    padding: 0 30px;
+}

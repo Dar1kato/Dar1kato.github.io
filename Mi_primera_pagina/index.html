@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="main_style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+       <h1>¡Hola Mundo!</h1>
+       <i>Mi primer pagina web</i>
+    </header>
+    <hr>
+    <nav>
+        <ul class="menu">
+            <li><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">Home</a></li>
+            <li><a href="https://www.iberopuebla.mx/">Universidad</a></li>
+            <li><a href="https://chatgpt.com/">ChatGPT :D</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <section>
+        <aside>
+            <img class="retrato" src="https://i.pinimg.com/736x/58/d2/66/58d266f90982b069f528b56ddb13b7f6.jpg" width="140px" onclick="playAudio()">
+        </aside>
+        <ul>
+            <li><b>Nombre:</b>Daniel Peña Cruz</li>
+            <li><b>Edad:</b>20 años</li>
+            <li><b>Carrera:</b>Ing. en Sistemas Computacionales</li>
+        
+        </ul>
+        
+    </section>
+    <hr>
+    <main>
+        <div id="carrusel">
+            
+        </div>
+        <h2>Galería</h2>
+        <div class="carrusel">
+        <ul>
+            <li><img src="tampico1.png" alt="Tampico"></li>
+            <li><img src="playa.png" alt="Playa"></li>
+            <li><img src="laptop.png" alt="Laptop"></li>
+            <li><img src="guitarra.png" alt="Guitarra"></li>
+        </ul>
+        </div>
+    </main>
+
+    <hr>
+    <footer>
+        <i>Contacto: 200818@iberopuebla.mx</i><br>
+        <i>Instagram: @dep_cruz</i>
+    </footer>
+    <audio id="audio">
+        <source src="Miau.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Funcionalidad -->
+    <script>
+        const audio = document.getElementById("audio");
+
+        function playAudio() {
+            audio.play();
+        }
+    </script>
+</body>
+</html>
