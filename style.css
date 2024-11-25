@@ -34,18 +34,22 @@ html {
     padding-left: 5vh;
 }
 
+.descripcion {
+    color: white;
+    text-align: justify;
+}
 
 hr {
     border: solid 2px #ADB5BD;
 }
 body {
-   background-color: #343A40;
-   color: white;
+   background-color: black;
+   color: #00ff00;
    overflow: auto;
    height: 100%;
-   -webkit-box-shadow: inset 0px 0px 28px -7px rgba(255,255,255,1);
--moz-box-shadow: inset 0px 0px 28px -7px rgba(255,255,255,1);
-box-shadow: inset 0px 0px 28px -7px rgba(255,255,255,1);
+   -webkit-box-shadow: inset 0px 0px 28px -7px rgba(0,255,0,1);
+    -moz-box-shadow: inset 0px 0px 28px -7px rgba(0,255,0,1);
+    box-shadow: inset 0px 0px 28px -7px rgba(0,255,0,1);
 }
 
 .carousel-control-prev-icon {
@@ -64,9 +68,9 @@ article {
 }
 
 #tarea1Carousel, #tarea4, #ahorcadoCodigo, #tarea6Carousel  {
-    -webkit-box-shadow: 0px 0px 28px -7px rgba(255,255,255,1);
--moz-box-shadow: 0px 0px 28px -7px rgba(255,255,255,1);
-box-shadow: 0px 0px 28px -7px rgba(255,255,255,1);
+    -webkit-box-shadow: 0px 0px 28px -7px rgba(0,255,0,1);
+-moz-box-shadow: 0px 0px 28px -7px rgba(0,255,0,1);
+box-shadow: 0px 0px 28px -7px rgba(0,255,0,1);
 }
 
 article h3 {
@@ -75,8 +79,9 @@ article h3 {
 
 article .btn {
     margin-bottom: 40px;
-    background-color: #212529;
-    border-color: white;
+    color: lime;
+    background-color: black;
+    border-color: lime;
     z-index: 9;
 }
 
